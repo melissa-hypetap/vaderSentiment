@@ -43,7 +43,7 @@ NEGATE = \
 # booster/dampener 'intensifiers' or 'degree adverbs'
 # http://en.wiktionary.org/wiki/Category:English_degree_adverbs
 
-BOOSTER_DICT = \
+BOOSTER_DICT = \isn
     {"absolutely": B_INCR, "amazingly": B_INCR, "awfully": B_INCR,
      "completely": B_INCR, "considerable": B_INCR, "considerably": B_INCR,
      "decidedly": B_INCR, "deeply": B_INCR, "effing": B_INCR, "enormous": B_INCR, "enormously": B_INCR,
@@ -76,8 +76,8 @@ SENTIMENT_LADEN_IDIOMS = {"cut the mustard": 2, "hand to mouth": -2,
 
 # check for special case idioms and phrases containing lexicon words
 SPECIAL_CASES = {"the shit": 3, "the bomb": 3, "bad ass": 1.5, "badass": 1.5, "bus stop": 0.0,
-                 "yeah right": -2, "kiss of death": -1.5, "to die for": 3,
-                 "beating heart": 3.1, "broken heart": -2.9 }
+                 "yeah right": -2, "kiss of death": -1.5, "to die for": 3, "hell yeah" : 3, "hell yea" :3,
+                 "beating heart": 3.1, "broken heart": -2.9, "no problem": 2, "fuck yea" : 3 }
 
 
 # #Static methods# #
